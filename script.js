@@ -1,10 +1,10 @@
 let x = document.getElementById('map') ;
 let btn = document.getElementById('btn') ;
 
-let iframe = document.createElement('iframe');
-var html = '<body>Foo</body>';
-iframe.src = 'https://maps.google.com/maps?q=${position.coords.longitude},${position.coords.latitude}&z=15&output=embed';
-document.body.appendChild(iframe);
+// let iframe = document.createElement('iframe');
+// var html = '<body>Foo</body>';
+// iframe.src = 'https://maps.google.com/maps?q=${position.coords.longitude},${position.coords.latitude}&z=15&output=embed';
+// document.body.appendChild(iframe);
 
 
 // iframedoc = document.getElementById("my_iframe").contentDocument;
