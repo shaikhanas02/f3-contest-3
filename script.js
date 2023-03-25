@@ -1,4 +1,4 @@
-let x = document.getElementById('map') ;
+//let x = document.getElementById('map') ;
 let btn = document.getElementById('btn') ;
 let removeBtn = document.getElementById('remove-btn') ;
 let frame = document.getElementById('map') ;
@@ -11,7 +11,7 @@ function getLocation() {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(showPosition);
     } else { 
-      x.innerHTML = "Geolocation is not supported by this browser.";
+      frame.innerHTML = "Geolocation is not supported by this browser.";
     }
   }
   
