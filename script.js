@@ -31,7 +31,7 @@ console.log(position.coords.latitude, position.coords.longitude);
   }
 
   function clear(){
-    frame.innerHTML= "" ;
+   
  localStorage.removeItem("Lat:") 
 localStorage.removeItem("Long:") 
   }
